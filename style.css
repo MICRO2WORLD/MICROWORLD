@@ -633,3 +633,141 @@ header ul li a:hover{
     text-shadow: 0px 0px 10px #fff;
     font-size: 55px;
 }
+
+@media (max-width:1023px){
+    header ul li a{
+        padding: 3px 10px;
+        border-radius: 22px;
+        font-size: medium;
+    }
+
+    header ul li{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-btn {
+        color: #ffffff;
+        background-color: #afcf0f;
+        text-decoration: none;
+        font-size: 1.6em;
+        font-weight: 900;
+        display: inline-block;
+        padding: 1.1em 2.3em;
+        letter-spacing: 7px;
+        border-radius: 15px;
+        transition: 0.7s ease;
+        margin: 10px;
+        box-shadow: 0px 0px 15px #afcf0f;
+    }
+
+    .goals h3{
+        font-family: 'ME';
+        text-shadow: 0px 0px 10px #afcf0f; 
+        font-size: 13px;
+        color: #a2c00f;
+        text-align: center;
+        margin: 35px;
+    }
+
+    .TEAM p{
+        margin: 20px;
+        font-size: 28px;
+        justify-content: center;
+        text-align: center;
+        font-family: 'MI';
+        letter-spacing: 1px;
+        opacity: 90%;
+    }
+
+    .content p{
+        margin: 18px;
+        font-size: 28px;
+        justify-content: center;
+        text-align: center;
+        font-family: 'MI';
+        letter-spacing: 1px;
+        opacity: 90%;
+    }
+
+    .content .bigcard{
+        width: 95%;
+        height: 375px;
+        margin: auto;
+        border-radius: 15px;
+        background-color: #1f2518;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        animation: shadow 3s infinite ease-in-out;
+      }
+
+      .card h3{
+        color: #fff;
+        font-family: 'ME';
+        text-shadow: 0px 0px 7px #fff; 
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .MS p{
+        color: #fff;
+        text-align: center;
+        font-family: 'MI';
+        letter-spacing: 1px;
+        opacity: 90%;
+        margin: 20px;
+        font-size: 26px;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
+
+
+
+.TEAM h3{
+    color: #ffffff;
+    font-family: 'ME';
+    text-shadow: 0px 0px 10px #fff;
+    font-size: 55px;
+}
