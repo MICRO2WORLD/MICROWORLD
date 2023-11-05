@@ -58,6 +58,13 @@ header .logo{
     background: transparent;
 }
 
+header .logo{
+    text-shadow: 0px 0px 5px #fff , 0px 0px 15px #fff, 0px 0px 30px #fff,
+    0px 0px 60px #fff, 0px 0px 100px #fff;
+    color: #ffffff;
+    transition: 1s ease;
+}
+
 header ul{
     display: flex;
     justify-content: center;
@@ -75,15 +82,15 @@ header ul li{
 header ul li a{
     padding: 3px 10px;
     border-radius: 13px;
-     text-shadow: 0px 0px 10px #afcf0f;
+    text-shadow: 0px 0px 10px #afcf0f;
     font-family: 'ME';
 }
 
 header ul li a:hover{
- text-shadow: 0px 0px 5px #fff , 0px 0px 15px #fff, 0px 0px 30px #fff,
+    text-shadow: 0px 0px 5px #fff , 0px 0px 15px #fff, 0px 0px 30px #fff,
     0px 0px 60px #fff, 0px 0px 100px #fff;
     color: #ffffff;
-        transition: 1s ease;
+    transition: 1s ease;
 
 }
 
