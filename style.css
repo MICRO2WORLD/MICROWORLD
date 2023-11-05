@@ -45,7 +45,7 @@ header{
     align-items: center;
     margin: 11px;
     background: transparent;
-    height: 90px;
+    height: 65px;
 }
 
 header .logo{
@@ -59,8 +59,8 @@ header .logo{
 }
 
 header .logo:hover{
-    text-shadow: 0px 0px 5px #fff , 0px 0px 10px #fff, 0px 0px 20px #fff,
-    0px 0px 50px #fff, 0px 0px 70px #fff;
+    text-shadow: 0px 0px 2px #fff , 0px 0px 5px #fff, 0px 0px 10px #fff,
+    0px 0px 25px #fff, 0px 0px 35px #fff;
     color: #ffffff;
     transition: 1s ease;
 }
@@ -87,8 +87,8 @@ header ul li a{
 }
 
 header ul li a:hover{
-        text-shadow: 0px 0px 5px #fff , 0px 0px 10px #fff, 0px 0px 20px #fff,
-    0px 0px 50px #fff, 0px 0px 70px #fff;
+    text-shadow: 0px 0px 2px #fff , 0px 0px 5px #fff, 0px 0px 10px #fff,
+    0px 0px 25px #fff, 0px 0px 35px #fff;
     color: #ffffff;
     transition: 1s ease;
 
